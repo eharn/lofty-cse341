@@ -18,7 +18,7 @@ const getDataFromFile = cb => {
 };
 
 module.exports = class objects {
-    constructor(tages, imageUrl, price, name, description) {
+    constructor(tags, imageUrl, price, name, description) {
         this.tags = tags;
         this.imageUrl = imageUrl;
         this.price = price;

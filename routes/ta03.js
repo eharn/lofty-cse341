@@ -6,6 +6,6 @@ const ta03Controller = require('../controllers/ta03-controller');
 
 router.get('/');
 
-router.get('/data-list', ta03Controller.getAllData);
+router.get('/', ta03Controller.getAllData);
 
 module.exports = router;
